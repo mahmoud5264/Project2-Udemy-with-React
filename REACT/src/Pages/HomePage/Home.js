@@ -8,9 +8,8 @@ function Home({ Loading, APIData, Courses, Description }) {
     <>
       <Header />
       {Loading ? (
-        <i
-          className="fa fa-duotone fa-spinner fa-5x"
-          style={{ marginLeft: "50%", marginTop: "50px" }}
+        <i className="fa fa-sharp fa-solid fa-spinner fa-5x"
+          style={{ marginLeft: "48%", marginTop: "60px" }}
         ></i>
       ) : (
         <Main

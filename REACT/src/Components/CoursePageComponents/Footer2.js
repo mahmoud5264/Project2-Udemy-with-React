@@ -1,5 +1,7 @@
 import React from "react";
 import Styles from "../../CSS/CoursePageStyles/Footer2.module.css";
+import { Spinner } from 'react-bootstrap';
+
 function Footer2() {
   console.log("foot");
 
@@ -39,6 +41,7 @@ function Footer2() {
         <div className="col-12 col-lg-4">Help and Support</div>
         <div className="col-12 col-lg-4">Cookies Settings</div>
         <div className="col-12 col-lg-4">About Us</div>
+        <Spinner/>
         <div className="col-12 col-lg-4">Affiliate</div>
         <div className="col-12 col-lg-4">Site map</div>
         <div className="col-12 col-lg-4">Contact Us</div>

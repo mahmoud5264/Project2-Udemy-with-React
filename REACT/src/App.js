@@ -22,7 +22,7 @@ function App() {
     setTab,
     fetchData
   ] = usePageStates();
-  const [prevTab, setPrev] = useState("Amr & Mahmoud");
+  const [prevTab, setPrev] = useState("python");
   const changeTab = useCallback(
     (TabName) => {
       if (prevTab !== TabName) {
@@ -42,8 +42,6 @@ function App() {
     setCourses([]);
     setCheck("");
   }, [Tab]);
-  if (Loading) return <h1>gdsk </h1>;
-  console.log(APIData);
   return (
     <div className="App">
       <Nav setCheck={setCheck}></Nav>
