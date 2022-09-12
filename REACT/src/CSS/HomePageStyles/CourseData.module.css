@@ -1,0 +1,14 @@
+.coursedata {
+  min-width: 20%;
+}
+
+@media screen and (max-width: 991px) {
+  .coursedata {
+    margin-left: -2%;
+    text-align: center !important;
+    width: 100%;
+  }
+  .coursedata h6 {
+    margin: auto;
+  }
+}

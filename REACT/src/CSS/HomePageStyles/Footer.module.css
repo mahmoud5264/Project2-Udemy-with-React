@@ -1,0 +1,45 @@
+footer {
+  max-width: 2000px;
+  margin: auto;
+}
+
+.footer {
+  width: 85%;
+  margin: auto;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+.topCategories img {
+  margin-bottom: 20px;
+  width: 20vw;
+  height: 20vw;
+  max-width: 20rem;
+  max-height: 20rem;
+  border: 5px solid white;
+  cursor: pointer;
+}
+
+.topCategories img:hover {
+  border: none;
+}
+
+@media screen and (max-width: 991px) {
+  .topCategories img {
+    width: 25vw;
+    height: 25vw;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .topCategories {
+    text-align: center;
+  }
+
+  .topCategories img {
+    width: 50vw;
+    height: 50vw;
+  }
+}
