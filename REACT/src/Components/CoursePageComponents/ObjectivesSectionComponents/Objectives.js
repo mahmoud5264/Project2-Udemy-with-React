@@ -8,7 +8,6 @@ import { FaSearch } from "react-icons/fa";
 import StudentFeedback from "./StudentFeedback";
 
 function Objectives({ course }) {
-  console.log("obj");
 
   const [showMore, setShowMore] = useState(true);
   return (
@@ -25,10 +24,10 @@ function Objectives({ course }) {
         </p>
       </div>
       <div className={Styles.nav}>
-        <a href="">Overview</a>
-        <a href="">Curriculum</a>
-        <a href="">Instructor</a>
-        <a href="">Reviews</a>
+        <Link to="">Overview</Link>
+        <Link to="">Curriculum</Link>
+        <Link to="">Instructor</Link>
+        <Link to="">Reviews</Link>
       </div>
       <div className={Styles.content}>
         <div className={Styles.whatLearn} id="whatlearn">

@@ -27,10 +27,10 @@ function CourseData({ Course }) {
           {Course.headline}
         </h6>
         <div>
-          {Course.tasks.map((task) => (
-            <>
+          {Course.tasks.map((task,index) => (
+            <i key={index}>
               <i className="fa fa-solid fa-check"> </i> {task} <br></br>
-            </>
+            </i>
           ))}
         </div>
         <div>

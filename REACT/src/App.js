@@ -20,7 +20,7 @@ function App() {
     setLoad,
     Tab,
     setTab,
-    fetchData
+    fetchData,
   ] = usePageStates();
   const [prevTab, setPrev] = useState("python");
   const changeTab = useCallback(
@@ -67,7 +67,7 @@ function App() {
           path="/course/:couresid"
           element={
             <PageContext.Provider value={Description.name}>
-              <Page2 APIData={APIData}> </Page2>
+              <Page2 Loading={Loading} APIData={APIData} />
             </PageContext.Provider>
           }
         ></Route>
